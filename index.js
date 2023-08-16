@@ -24,7 +24,7 @@ btn.addEventListener('click', submitText)
 
 function createSubmissionItem(text) { 
     const submissionItem = document.createElement('div');
-    submissionItem.className = 'border p-3 mb-3 mt-3';
+    submissionItem.className = 'border border-rounded-8 p-3 mb-3 mt-3';
 
     const textElement = document.createElement('p');
     textElement.textContent = text;
