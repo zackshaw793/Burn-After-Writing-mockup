@@ -18,7 +18,7 @@ inputText.value = '';
 
 //the event listener waits for the user to click the item and runs the submitText function.
 
-btn.addEventListener('click', submitText);
+btn.addEventListener('click', submitText) 
 
 //createSubmissionItem puts each submission in a divided feed.
 
